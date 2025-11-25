@@ -44,12 +44,7 @@ public class lab4ex5 {
             System.out.println(s);
     }
       Collections.sort(student); 
-         // {
-         //    @Override
-         //    public int compare(String s1, String s2) {
-         //        return Character.compare(s1.charAt(0), s2.charAt(0));
-         //    }
-         // });
+      
       System.out.println("Sorted");
       for (String s : student){
             System.out.println(s);
@@ -58,6 +53,7 @@ public class lab4ex5 {
          fw.write(s);
       }
       fw.close();
+      sc2.close();
    }
 }
 
